@@ -1,12 +1,11 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * print_alphabet - print the alphabet of lower ca
+ * main -print alphabet
+ * Return: Always 0
  */
-void print_alphabet(void)
+int main(void)
 {
-		char l;
-	for (l = 'a'; l <= 'z'; l++)
-		_putchar(l);
-	_putchar('\n');
-}
+	print_alphabet();
+	return (0);
+}putchar.c -o 0_putchar
