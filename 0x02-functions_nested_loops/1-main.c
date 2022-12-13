@@ -8,4 +8,4 @@ int main(void)
 {
 	print_alphabet();
 	return (0);
-}putchar.c -o 0_putchar
+}
