@@ -11,23 +11,21 @@ int main(void)
 		int i;
 		int mult;
 		int mult1;
-		int mult2;
 	for (i = 1; i <= 100; i++)
 	{
 		mult = i % 3;
 		mult1 = i % 5;
-		mult2 = i % 15;
-		if (mult == 0)
+		if (mult == 0 && mult1 == 0)
+		{
+			printf("FizzBuzz");
+		}
+		else if (mult == 0)
 		{
 			printf("Fizz");
 		}
 		else if (mult1 == 0)
 		{
 			printf("Buzz");
-		}
-		else if (mult2 == 0)
-		{
-			printf("FizzBuzz");
 		}
 		else
 			printf("%d", i);
