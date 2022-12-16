@@ -28,7 +28,7 @@ int main(void)
 			printf("Fizz");
 		}
 		else
-			printf("%d", i);
+			printf("%i", i);
 		if (i != 0)
 			putchar(' ');
 	}
