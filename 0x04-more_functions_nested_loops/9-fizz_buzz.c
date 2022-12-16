@@ -9,21 +9,17 @@
 int main(void)
 {
 		int i;
-		int mult;
-		int mult1;
 	for (i = 1; i <= 100; i++)
 	{
-		mult = i % 3;
-		mult1 = i % 5;
-		if ((mult == 0) && (mult1 == 0))
+		if ((i % 3 == 0) && (i % 5 == 0))
 		{
 			printf("FizzBuzz");
 		}
-		else if (mult1 == 0)
+		else if (i % 5 == 0)
 		{
 			printf("Buzz");
 		}
-		else if (mult == 0)
+		else if (i % 3 == 0)
 		{
 			printf("Fizz");
 		}
