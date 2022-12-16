@@ -31,7 +31,7 @@ int main(void)
 		}
 		else
 			printf("%d", i);
-		if (i !=0)
+		if (i != 0)
 			putchar(' ');
 	}
 	putchar('\n');
