@@ -15,17 +15,17 @@ int main(void)
 	{
 		mult = i % 3;
 		mult1 = i % 5;
-		if (mult == 0 && mult1 == 0)
+		if ((mult == 0) && (mult1 == 0))
 		{
 			printf("FizzBuzz");
-		}
-		else if (mult == 0)
-		{
-			printf("Fizz");
 		}
 		else if (mult1 == 0)
 		{
 			printf("Buzz");
+		}
+		else if (mult1 == 0)
+		{
+			printf("Fizz");
 		}
 		else
 			printf("%d", i);
