@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _atoi - func
+ *main - func
  * @s: input
  * Return:Always 0.
  */
 
-int _atoi(char *s)
+int main(void)
 {
 	return (0);
 }
