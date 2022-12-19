@@ -10,17 +10,16 @@ void puts_half(char *str)
 {
 		int i, k, j, count;
 			count = 0;
-	for (i = 0; str[i] != '\n'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		count++;
 	}
-
-	j = (count / 2);
-
-	if (count % 2 == 1)
+	if (count % 2 == 0)
 	{
-		j = ((count + 1) / 2);
+		j = count / 2;
 	}
+	else
+		j = (count + 1) / 2;
 
 
 	for (k = j; str[k] != '\0'; k++)
