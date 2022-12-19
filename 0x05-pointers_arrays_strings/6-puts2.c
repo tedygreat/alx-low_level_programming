@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 /**
  * puts2 - function should print halfe character
  * @str: input
@@ -12,7 +12,7 @@ void puts2(char *str)
 	{
 		if (i % 2 == 0)
 		{
-			_putchar(i);
+			_putchar(str[i]);
 		}
 		else
 			continue;
