@@ -25,13 +25,12 @@ int _atoi(char *s)
 
 	if (*var != '\0')
 	{
-		do{
-			num = num * 10 +(*var - '0');
+		do {
+			num = num * 10 + (*var - '0');
 			var++;
-		}
-		while(*var >= '0' && *var <= '9');
+		} while (*var >= '0' && *var <= '9');
 	}
 
 
-	return (num *sign);
+	return (num * sign);
 }
