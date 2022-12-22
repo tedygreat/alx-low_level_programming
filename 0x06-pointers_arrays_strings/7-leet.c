@@ -7,13 +7,14 @@
 
 char *leet(char *s)
 {
-		char low_up[5][2] = {{'a', 'A'}, {'e', 'E'}, {'o', 'O'},{'t', 'T'}, {'l', 'L'}};
+	char low_up[5][2] = {{'a', 'A'}, {'e', 'E'}, {'o', 'O'},
+		{'t', 'T'}, {'l', 'L'}};
 		char values[] = {'4', '3', '0', '7', '1'};
-		int i,j;
-		
+		int i, j;
 	for (i = 0; s[i] != 0; i++)
 	{
-		char c = s[i];
+
+			char c = s[i];
 		for (j = 0; j < 5; j++)
 		{
 			if (c == low_up[j][0] || c == low_up[j][1])
