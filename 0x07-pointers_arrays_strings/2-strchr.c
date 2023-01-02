@@ -15,8 +15,11 @@ char *_strchr(char *s, char c)
 		i++;
 	for (b = 0; b < i; b++)
 	{
-		s += b;
-		return (s);
+		if(c == s[b])
+		{
+			s += b;
+			return (s);
+		}
 	}
 
 	return ('\');
