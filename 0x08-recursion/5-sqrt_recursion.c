@@ -13,7 +13,7 @@ int _sqrt_recursion(int n)
 	return (_squrt(n, 1));
 }
 /**
- * squrt - func
+ * _squrt - func
  * @n: var
  * @i: var2
  * Return: a number
