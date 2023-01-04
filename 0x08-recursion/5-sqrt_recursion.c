@@ -1,7 +1,7 @@
 #include "main.h"
 
 
-int squrt(int, int);
+int _squrt(int, int);
 /**
  * _sqrt_recursion - function that perform square root of number
  * @n: var
@@ -10,7 +10,7 @@ int squrt(int, int);
 
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n, 1));
+	return (_squrt(n, 1));
 }
 /**
  * squrt - func
@@ -19,12 +19,12 @@ int _sqrt_recursion(int n)
  * Return: a number
  */
 
-int squrt(int n, int i)
+int _squrt(int n, int i)
 {
-		int squre = i * i;
-	if (squre > n)
+		int sq = i * i;
+	if (sq > n)
 		return (-1);
-	else if (squre == n)
+	else if (sq == n)
 		return (i);
-	return (squrt(n, i + 1));
+	return (_squrt(n, i + 1));
 }
