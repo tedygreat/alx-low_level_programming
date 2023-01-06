@@ -22,7 +22,16 @@ int check_num(char *str)
 		count++;
 	}
 	return (1);
+}
 
+/**
+ * main - fun
+ * @argc: var
+ * @argv: arg
+ * Return: always 0
+ */
+int main(int argc, char *argv[])
+{
 
 /*declaration*/
 
