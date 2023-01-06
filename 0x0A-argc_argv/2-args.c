@@ -8,7 +8,7 @@
  * Return: Always0
  */
 
-int main(int argc, char argv)
+int main(int argc, char *argv[])
 {
 		int count;
 			count = 0;
