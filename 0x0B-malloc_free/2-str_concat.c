@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 int _strlen(char *s);
 /**
  * str_concat - function that perform concatnate two string
