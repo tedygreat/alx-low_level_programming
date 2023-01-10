@@ -1,6 +1,7 @@
 #include  "main.h"
 #include "stdlib.h"
-
+int _strlen(char *s);
+char *_strcpy(char *dest, char *src);
 /**
  * _strdup - fun that allocate newly allocated space
  * @str: var
@@ -16,7 +17,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	size = _strlen(str) + 1;
-	dest = (char *) malloc(size * sizeof(char));
+	dst = (char *) malloc(size * sizeof(char));
 	if (dst == 0)
 	{
 		return (NULL);
