@@ -13,7 +13,8 @@
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 		void *mem;
-		char *ptr_copy, *fill
+		unsigned int i;
+		char *ptr_copy, *fill;
 	if (new_size == old_size)
 	{
 		return (ptr);
@@ -40,7 +41,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		return (NULL);
 	}
 	fill = mem;
-	for (int i = 0; i < old_size && i < new_size; i++)
+	for (i = 0; i < old_size && i < new_size; i++)
 	{
 		fill[i] = *ptr_copy++;
 	}
