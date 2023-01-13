@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 /**
  * main - main function
@@ -9,10 +10,10 @@
 int main(void)
 
 {
-		long i;
+		int i;
 		long n;
-			n = 612852475142;
-	for (i = n; i > 2; i--)
+			n = 612852475143;
+	for (i = (int) sqrt(n); i > 2; i++)
 	{
 		if (n % i == 0)
 		{
