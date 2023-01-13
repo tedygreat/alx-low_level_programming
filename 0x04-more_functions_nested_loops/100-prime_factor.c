@@ -9,14 +9,14 @@
 int main(void)
 
 {
-		int i;
+		long i;
 		long n;
-			n = 612852475143;
-	for (i = (n - 1); i > 2; i--)
+			n = 612852475142;
+	for (i = n; i > 2; i--)
 	{
 		if (n % i == 0)
 		{
-			printf("%d\n", i);
+			printf("%ld\n", i);
 			break;
 		}
 	}
