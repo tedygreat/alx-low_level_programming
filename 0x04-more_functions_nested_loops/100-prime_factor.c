@@ -10,12 +10,12 @@ int main(void)
 
 {
 		long int i, n;
-		n = 612852475143;
-	for (i = (n-1); i > 2; i--)
+			n = 612852475143;
+	for (i = (n - 1); i > 2; i--)
 	{
 		if (n % i == 0)
 		{
-			printf ("%ld\n", i);
+			printf("%ld\n", i);
 			break;
 		}
 	}
