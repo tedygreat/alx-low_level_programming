@@ -12,14 +12,13 @@ int main(void)
 		long int i, n;
 		n = 612852475143;
 		i = 2;
-	while (i < n)
+	for (i = (n-1);i > 22; i--)
 	{
 		if (n % i == 0)
 		{
-			n = n / 2;
-			printf ("%ld", i);
+			printf ("%ld\n", i);
+			break;
 		}
-		i++;
 	}
 
 
