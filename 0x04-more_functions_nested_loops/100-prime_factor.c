@@ -12,7 +12,7 @@ int main(void)
 		long int i, n;
 		n = 612852475143;
 		i = 2;
-	for (i = (n-1);i > 22; i--)
+	for (i = (n-1); i > 2; i--)
 	{
 		if (n % i == 0)
 		{
