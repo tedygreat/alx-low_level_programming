@@ -1,5 +1,8 @@
 #include "main.h"
-
+#include <stddef.h>
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 /**
  * main - func
  * Return:Always 0.
