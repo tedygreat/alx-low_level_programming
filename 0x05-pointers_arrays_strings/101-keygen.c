@@ -11,8 +11,9 @@
 int main(void)
 {
 		int pass;
+		int sum;
 		srand(time(NULL));
-			int sum = 0;
+			sum = 0;
 	while (sum < 3000)
 	{
 	pass = (rand() % 128);
