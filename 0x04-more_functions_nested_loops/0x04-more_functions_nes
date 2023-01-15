@@ -1,0 +1,11 @@
+#include "main.h"
+/**
+ * print_number - function that print number
+ * @n:var
+ * Return: nothing
+ */
+
+void print_number(int n)
+{
+	_putchar ("%d", n);
+}

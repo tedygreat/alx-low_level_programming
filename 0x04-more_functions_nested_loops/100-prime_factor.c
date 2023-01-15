@@ -10,19 +10,17 @@
 int main(void)
 
 {
-		int i;
+		long i;
 		long n;
 			n = 612852475143;
-	for (i = (int) sqrt(n); i > 2; i++)
+	for (i = 2; i < n; i++)
 	{
-		if (n % i == 0)
+		while (n % i == 0)
 		{
-			printf("%d\n", i);
-			break;
+			n = n / i;
 		}
 	}
-
-
+	printf("%ld\n", i);
 
 	return (0);
 }
