@@ -8,5 +8,8 @@
 
 int main(void)
 {
+	int pass;
+	pass = (rand() % 128);
+	printf("%c", pass);
 	return (0);
 }
