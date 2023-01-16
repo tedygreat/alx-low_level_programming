@@ -66,7 +66,7 @@ char *_str_cpy(char *des, char *src)
 		int i;
 	for (i = 0; src[i]; i++)
 	{
-		src[i] = des[i];
+		des[i] = src[i];
 	}
 	des[i] = '\0';
 	return (des);
