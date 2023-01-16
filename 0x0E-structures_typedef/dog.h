@@ -2,14 +2,14 @@
 #define MAIN_H
 
 /**
- * struct my_struct - func
+ * struct dog - func
  * @name: var
  * @age: var1
  * @owner: var2
  * Description: structurer data type
  */
 
-struct my_struct
+struct dog
 {
 	char *name;
 	float age;
