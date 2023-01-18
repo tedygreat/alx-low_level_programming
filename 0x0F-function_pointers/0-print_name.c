@@ -2,9 +2,9 @@
 #include "function_pointers.h"
 
 /**
- * print_name - function that point name\
+ * print_name - function that point name
  * @name: var
- * @f:var
+ * @f: var1
  * Return: nothing
  */
 
