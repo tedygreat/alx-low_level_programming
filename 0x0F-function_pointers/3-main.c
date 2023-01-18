@@ -1,5 +1,6 @@
 #include "3-calc.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * main - function that performs simple op
  * @argc: num arg
@@ -28,7 +29,7 @@ int main(int argc, char *argv[])
 	}
 	o = *argv[2];
 
-	if((o == '/' || o == '%') && arg2 == 0)
+	if ((o == '/' || o == '%') && arg2 == 0)
 	{
 		printf("Error\n");
 		exit(100);
