@@ -12,7 +12,9 @@ void print_all(const char * const format, ...)
 		unsigned int i, j, c;
 		char *str;
 		const char t_arg[] = "cifc";
-			j, i, c = 0;
+			j = 0;
+			i = 0;
+			c = 0;
 		va_start(arg, format);
 	while (format && format[i])
 	{
@@ -36,11 +38,9 @@ void print_all(const char * const format, ...)
 				break;
 			case 's':
 				str = va_arg(arg, char *), c = 1;
-				if (!str)
-				{
+				if (!str)				{
 					printf("(nill");
 					break;
-				}
 				printf("%s", str);
 				break;
 		}

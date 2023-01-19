@@ -1,6 +1,7 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdarg.h>
 
 /**
  * print_numbers - function that perform prints numbers
@@ -9,7 +10,7 @@
  * Return: nothing
  */
 
-void print_numbers(const char *separator, const unsigned int n, ...);
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 		va_list arg;
 		unsigned int i;
