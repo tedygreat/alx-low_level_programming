@@ -1,10 +1,7 @@
 #include "variadic_functions.h"
-#include <stdio.h>
-#include <stdarg.h>
 /**
  * print_all - func print any thing
  * @format: var
- * Return: nothing
  */
 void print_all(const char * const format, ...)
 {
@@ -24,8 +21,7 @@ void print_all(const char * const format, ...)
 			{
 				printf(", ");
 				break;
-			}
-			j++;
+			} j++;
 		}
 		switch (format[i])
 		{
@@ -47,9 +43,6 @@ void print_all(const char * const format, ...)
 				}
 				printf("%s", str);
 				break;
-		}
-		i++;
-	}
-	printf("\n");
-	va_end(arg);
+		} i++;
+	} printf("\n"), va_end(arg);
 }
