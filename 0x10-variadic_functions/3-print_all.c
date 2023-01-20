@@ -11,10 +11,10 @@ void print_all(const char * const format, ...)
 		va_list arg;
 		unsigned int i, j, c;
 		char *str;
-		const char t_arg[] = "cifc";
+		const char t_arg[] = "cifs";
 			i = 0;
 			c = 0;
-		va_start(arg, format);
+	va_start(arg, format);
 	while (format && format[i])
 	{
 		j = 0;
