@@ -1,14 +1,9 @@
-/*
- * File: 1-list_len.c
- * Auth: Brennan D Baraban
- */
-
 #include "lists.h"
 
 /**
  * list_len - Finds the number of elements in
  *            a linked list_t list.
- * @h: The linked list_t list.
+ * @h: The linked list_t list var.
  *
  * Return: The number of elements in h.
  */
