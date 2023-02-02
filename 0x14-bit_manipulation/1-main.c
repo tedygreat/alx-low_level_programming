@@ -1,22 +1,17 @@
 #include "main.h"
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
+#include <stdio.h>
+#include <unistd.h>
 int main(void)
 {
-    unsigned long int n;
-
-    n = 1024;
-    clear_bit(&n, 10);
-    printf("%lu\n", n);
-    n = 0;
-    clear_bit(&n, 10);
-    printf("%lu\n", n);
-    n = 98;
-    clear_bit(&n, 1);
-    printf("%lu\n", n);
+		int n = 1;
+	       /*n = get_endianness();*/
+    if (n != 0)
+    {
+        printf("Little Endian\n");
+    }
+    else
+    {
+        printf("Big Endian\n");
+    }
     return (0);
 }
