@@ -1,4 +1,5 @@
 #include "main.h"
+#include  <unistd.h>
 #include <stdio.h>
 
 /**
@@ -14,10 +15,9 @@ int main(int argc, char *argv[])
 			count = 0;
 	if (argc > 0)
 	{
-		while (count < argc)
+		for (count = 0; count < argc; count++)
 		{
 			printf("%s\n", argv[count]);
-			count++;
 		}
 	}
 	return (0);

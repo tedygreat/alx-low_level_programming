@@ -5,7 +5,7 @@
 #include <ctype.h>
 
 /**
- * check_num - fun
+ * check_num - function that checks whether the input is number or not
  * @str: array
  * Return: Always 0
  */
