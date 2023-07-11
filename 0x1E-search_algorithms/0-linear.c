@@ -1,9 +1,4 @@
-/*
- * File: 0-linear.c
- * Auth: Brennan D Baraban
- */
-
-#include "search_algos.h"
+include "search_algos.h"
 
 /**
   * linear_search - Searches for a value in an array
